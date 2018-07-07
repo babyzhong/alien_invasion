@@ -12,7 +12,7 @@ class Alien(Sprite):
         self.ai_setting = ai_settings
 
         # load the picture of alien and set rect
-        self.image = pygame.image.load_basic('images\ship.bmp')
+        self.image = pygame.image.load_basic('images\\alien_ship.bmp')
         self.rect = self.image.get_rect()
 
         # every alien shows up at left-top of screen
